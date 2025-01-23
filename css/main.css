@@ -260,7 +260,7 @@ a.color_red {
   visibility: visible;
 }
 .modal .wrapper {
-	background: url(img/background-callback.webp) center center;
+	background: url(../img/background-callback.webp) center center;
 	background-size: cover;
 }	
 .modal-close {
@@ -416,7 +416,7 @@ ul.sub-menu li {
     opacity: 0; 
 }
 .main_page {
-	background: url(img/background-main-slider.webp) center center no-repeat;
+	background: url(../img/background-main-slider.webp) center center no-repeat;
 	background-size: cover;
 }
 
@@ -546,7 +546,7 @@ ul.sub-menu li {
 	padding-bottom: 140px;
 }
 .work_experience .wrapper {
-	background: url(img/background-work-experience.webp) center center no-repeat;
+	background: url(../img/background-work-experience.webp) center center no-repeat;
 	border-radius: 25px;
 	background-size: cover;
 	justify-content: center;
@@ -659,7 +659,7 @@ ul.sub-menu li {
 }
 
 		.call_back .wrapper {
-			background: url(img/background-callback.webp) center center no-repeat;
+			background: url(../img/background-callback.webp) center center no-repeat;
 			background-size: cover;
 			position: relative;
 			width: 100%;
@@ -790,12 +790,12 @@ ul.sub-menu li {
 			width: 100%;
 		}
 		.promotional_offers_left_block {
-			background: url(img/background-main-slider.webp) center center no-repeat;
+			background: url(../img/background-main-slider.webp) center center no-repeat;
 			background-size: cover;
 			border-radius: 25px;
 		}
 		.promotional_offers_right_block {
-			background: url(img/background-item-green-shadow.webp) center center no-repeat;
+			background: url(../img/background-item-green-shadow.webp) center center no-repeat;
 			background-size: cover;
 			border-radius: 25px;
 		}
