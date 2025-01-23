@@ -509,28 +509,7 @@
 	 
  </div>
 </section>
-	<script>
-// 		Margin h3
-	document.addEventListener("DOMContentLoaded", function () {
-    // Находим все заголовки h3 в .catalog_products
-    const productTitles = document.querySelectorAll('.catalog_products h3');
-    
-    productTitles.forEach(function (title) {
-        // Определяем высоту строки заголовка
-        const lineHeight = parseFloat(window.getComputedStyle(title).lineHeight);
-        
-        // Высчитываем количество строк (округляем до целого)
-        const lines = Math.round(title.offsetHeight / lineHeight);
-        
-        // Если одна строка - добавляем класс single-line, если две - two-lines
-        if (lines === 1) {
-            title.classList.add('single-line');
-        } else if (lines === 2) {
-            title.classList.add('two-lines');
-        }
-    });
-});
-	</script>
+	
 
 <!-- Slider bottom	 -->
 <script>
