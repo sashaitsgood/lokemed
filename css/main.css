@@ -644,8 +644,8 @@ ul.sub-menu li {
 		.equipment_categories article:hover h3 {
 			color: var(--color-dark-green);
 		}
-		.equipment_categories article:hover {
-			padding-bottom: 100px;		 
+		.equipment_categories article:hover{
+			padding-bottom: 100px;
 			stroke: var(--color-green);
 		}
 		.equipment_categories img {
@@ -1125,11 +1125,14 @@ justify-content: center;
 			display: block;
 			z-index: 5;
 		}
+		.burger_menu_wrapper {
+			padding-top: 20%;
+		}
 		.burger-menu {
-			position: fixed;
+			position: absolute;
 			right: -270px;
-			top: 20%;
 			width: 270px;
+			top: 95%;
 			background-color: var(--color-white);
 			padding: 20px 20px 85px 20px;
 			transition: transform .5s;
@@ -1538,8 +1541,6 @@ h2, .promotions h1 {
 	margin: 0;
 }
 
-}
-@media (max-width: 650px) {
 .main_page .container {
 	padding: 0 15px;
 }
@@ -1559,7 +1560,12 @@ h2, .promotions h1 {
     .lokemed_fao_center_block img {
         width: 100%;
     }
-
+	.equipment_categories .equipment_categories_items > article {
+		height: 537px;
+	}
+	.equipment_categories .btn {
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 400px) {
