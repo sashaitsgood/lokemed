@@ -1615,6 +1615,12 @@ footer .wrapper {
 	.main_page .slider_items .slide {
 		top: 15%;
 	}
+	.catalog article {
+		height: 400px;
+	}
+	.call_back {
+		padding: 0;
+	}
 	.call_back_right_block {
 		display: flex;
 		display: -webkit-flex;
@@ -1757,7 +1763,7 @@ footer .wrapper {
 	.main_page .slider_items .slide {
         top: 50%;
         left: 10%;
-        max-width: 40%;
+        /* max-width: 40%; */
 	}
 	.call_back .wrapper {
 		padding: 10px;
@@ -1815,6 +1821,7 @@ footer .wrapper {
 	.catalog .itc-slider-wrapper {
 		padding-top: 40px;
 	}
+
 }
 
 @media (max-width: 500px) {
