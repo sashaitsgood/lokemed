@@ -1762,6 +1762,9 @@ footer .wrapper {
 	.call_back .wrapper {
 		padding: 10px;
 	}
+	.call_back {
+    	padding: 0;
+	}
 	.call_back .btn_wrapper {
 		flex-direction: column;
 	}
@@ -1792,7 +1795,7 @@ footer .wrapper {
 		margin: 0;
 	}
 	.main_page .container {
-		padding: 0 15px;
+		padding: 25px 15px;
 	}
 	.promotional_offers .btn_green_light {
 		width: 300px;
@@ -1808,6 +1811,9 @@ footer .wrapper {
 	}
 	.equipment_categories .btn {
 		margin-top: 20px;
+	}
+	.catalog .itc-slider-wrapper {
+		padding-top: 40px;
 	}
 }
 
