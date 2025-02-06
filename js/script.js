@@ -15,9 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var modalId = this.getAttribute('data-modal'),
             modalElem = document.querySelector('.modal[data-modal="' + modalId + '"]');
+            form = modalElem.querySelector('form');
             
         modalElem.classList.add('active');
         overlay.classList.add('active');
+
+        if (form) {
+            form.reset();
+        }
     }); 
 }); 
 
@@ -47,7 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 }); 
 
-document.getElementById('form-modal-call').reset()
 
 // Burger
     document.addEventListener("DOMContentLoaded", function () {
