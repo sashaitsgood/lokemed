@@ -148,8 +148,8 @@ a.color_red {
     white-space: nowrap;
     font-size: 16px;
     position: fixed;
-	-webkit-position: fixed; 
-	-ms-position: fixed;
+	position: -webkit-fixed;
+	position: -ms-fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -435,6 +435,11 @@ ul.sub-menu li {
 }
 
 /* 	Slider	 */
+/* .main_page {
+	background: url(../img/background-main-slider.webp) center center no-repeat;
+	background-size: cover;
+} */
+
 .main_page .slider_items .slide {
 	position: absolute;
 	top: 5%;
@@ -508,11 +513,6 @@ ul.sub-menu li {
 	-webkit-transition: opacity 1000ms ease-out;  
 	-ms-transition: opacity 1000ms ease-out; 
     opacity: 0; 
-}
-
-.main_page {
-	background: url(../img/background-main-slider.webp) center center no-repeat;
-	background-size: cover;
 }
 
 /* catalog  */
