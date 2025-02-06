@@ -441,7 +441,8 @@ ul.sub-menu li {
 .main_page .slider_items .slide {
 	position: absolute;
 	top: 5%;
-	right: 10%;
+	right: 20%;
+	max-width: 30%;
 }
 
 .main_page .slider .wrapper {
@@ -468,7 +469,7 @@ ul.sub-menu li {
 	
 .main_page .progress-bar-container {
     width: 5px; 
-    height: 370px;
+    height: 320px;
     background-color: var(--color-gray, #F7F7F7);
     border-radius: 5px; 
     position: relative; 
@@ -488,7 +489,7 @@ ul.sub-menu li {
 .main_page .slider {
 	position: absolute;
 	right: 160px;
-	top: 20%;
+	top: 15%;
 }
 
 .main_page .slide {
@@ -1499,10 +1500,6 @@ footer .wrapper {
 	.main_page p {
 		max-width: 440px;
 	}
-	.main_page .slider_items .slide  {
-		top: 15%;
-		width: 400px;
-	}
 	.main_page .progress-bar {
 		bottom: 0; 
 	}
@@ -1613,12 +1610,6 @@ footer .wrapper {
 	.main_page .container {
 		padding: 0 56px;
 	}
-	.main_page .slider {
-        right: 50px;
-    }
-	.main_page .slider_items .slide {
-        right: 3%;
-    }
 	.main_page p {
 		max-width: 340px;
 	}	
@@ -1707,7 +1698,6 @@ footer .wrapper {
 	.main_page .slider_items .slide {
 		top: 40%;
 		left: 10%;
-		max-width: 30%;
 	}
 	.main_page p { 
 		margin-bottom: 15px;
@@ -1739,9 +1729,6 @@ footer .wrapper {
 	}
 	.h3 {
 		font-size: 18px;
-	}
-	.main_page .slider_items .slide {
-		top: 45%;
 	}
 	.work_experience h3 {
 		font-size: 34px;
