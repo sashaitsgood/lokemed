@@ -432,10 +432,10 @@ ul.sub-menu li {
 }
 
 /* 	Slider	 */
-.main_page {
+/* .main_page {
 	background: url(../img/background-main-slider.webp) center center no-repeat;
 	background-size: cover;
-}
+} */
 
 .main_page .slider_items .slide {
 	position: absolute;
@@ -517,7 +517,7 @@ ul.sub-menu li {
 .catalog article {
 	position: relative;
     width: 300px;
-	height: 600px;
+	/* height: 600px; */
 }
 
 .catalog img {
@@ -599,7 +599,7 @@ ul.sub-menu li {
 }
 
 .catalog article:hover {
-	height: 502px;
+	/* height: 502px; */
 	color: var(--color-dark-green, #2A798A);
 }		
 
@@ -742,7 +742,10 @@ ul.sub-menu li {
 	align-items: center;
 	gap: 31px;
 }
-
+.equipment_categories .flex.icon_wrapper {
+	flex-direction: row;
+	justify-content: space-between;
+}
 .equipment_categories .equipment_categories_items > article {
 	padding: 30px;
 	background-color: var(--color-white, #fff);
@@ -780,7 +783,7 @@ ul.sub-menu li {
 }
 
 .equipment_categories article:hover{
-	padding-bottom: 100px;
+	/* padding-bottom: 100px; */
 	stroke: var(--color-green, #B3E06D);
 }
 
@@ -1511,6 +1514,9 @@ footer .wrapper {
 		margin: 0 auto;
 		justify-content: center;
 	}
+	.catalog .catalog_filters button {
+		margin-bottom: 0;
+	}
 	.catalog .slider {
 		display: initial;
 	}
@@ -1614,9 +1620,6 @@ footer .wrapper {
 	}	
 	.main_page .slider_items .slide {
 		top: 15%;
-	}
-	.catalog article {
-		height: 400px;
 	}
 	.call_back {
 		padding: 0;
@@ -1763,13 +1766,22 @@ footer .wrapper {
 	.main_page .slider_items .slide {
         top: 50%;
         left: 10%;
-        /* max-width: 40%; */
+        max-width: 40%;
+	}
+	.catalog article {
+		max-width: 70%;
+	}
+	.catalog .catalog_products.flex {
+		gap: 0;
 	}
 	.call_back .wrapper {
 		padding: 10px;
 	}
 	.call_back {
     	padding: 0;
+	}
+	.work_experience {
+		padding-bottom: 0;
 	}
 	.call_back .btn_wrapper {
 		flex-direction: column;
@@ -1812,8 +1824,14 @@ footer .wrapper {
     .lokemed_fao_center_block img {
         width: 100%;
     }
-	.equipment_categories .equipment_categories_items > article {
+	/* .equipment_categories .equipment_categories_items > article {
 		height: 537px;
+	} */
+	.equipment_categories .equipment_categories_items > article {
+		height: 0;
+	}
+	.equipment_categories img {
+		max-width: 70%;
 	}
 	.equipment_categories .btn {
 		margin-top: 20px;
