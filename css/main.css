@@ -745,6 +745,7 @@ ul.sub-menu li {
 .equipment_categories .flex.icon_wrapper {
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 .equipment_categories .equipment_categories_items > article {
 	padding: 30px;
@@ -1170,10 +1171,6 @@ ul.sub-menu li {
 	display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
-}
-
-.block_records article:hover {
-	height: 542px;
 }
 
 .block_records .itc-slider {
@@ -1775,7 +1772,7 @@ footer .wrapper {
 		gap: 0;
 	}
 	.call_back .wrapper {
-		padding: 10px;
+		padding: 30px;
 	}
 	.call_back {
     	padding: 0;
@@ -1824,13 +1821,14 @@ footer .wrapper {
     .lokemed_fao_center_block img {
         width: 100%;
     }
-	/* .equipment_categories .equipment_categories_items > article {
-		height: 537px;
-	} */
-	/* 
 	.equipment_categories .equipment_categories_items > article {
-		height: 0;
-	}*/
+		height: 437px;
+	}
+	.equipment_categories .img_wrapper {
+		display: flex;
+		justify-content: center;
+		height: 40%;
+	}
 	.equipment_categories img {
 		max-width: 70%;
 	}
@@ -1840,7 +1838,27 @@ footer .wrapper {
 	.catalog .itc-slider-wrapper {
 		padding-top: 40px;
 	}
-
+	.promotional_offers.padding_top_section {
+		padding-top: 40px;
+	}
+	.promotional_offers .btn_green_light {
+		top: 12%;
+	}
+	.lokemed_fao.padding_top_section {
+		padding-top: 40px;
+	}
+	.block_records img {
+		max-width: 70%;
+	}
+	.block_records .block_records_text {
+		padding-left: 0;
+	}
+	.block_records h3 {
+		width: 220px;
+	}
+	.block_records .flex {
+		gap: 0;
+	}
 }
 
 @media (max-width: 500px) {
