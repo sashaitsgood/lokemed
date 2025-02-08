@@ -1143,11 +1143,9 @@ ul.sub-menu li {
 }
 
 .block_records article {
-	outline: 1px solid var(--color-gray, #F7F7F7);
 	transition: 0.3s ease;
 	-webkit-transition: 0.3s ease; 
 	-ms-transition: 0.3s ease;
-	height: 600px;
 }
 
 .block_records article h3:hover {
@@ -1155,7 +1153,6 @@ ul.sub-menu li {
 }
 
 .block_records .btn {
-	padding: 0 0 30px 30px;
 	display: inline-block;	
 }
 
@@ -1178,6 +1175,7 @@ ul.sub-menu li {
 }
 
 .block_records .slider_bottom {
+	margin-top: 50px;
 	position: relative;
 }
 	
@@ -1816,13 +1814,28 @@ footer .wrapper {
 		width: 300px;
 	}
 	.promotional_offers p {
-		margin-top: 100px;
+		margin-top: 70px;
 	}
     .lokemed_fao_center_block img {
         width: 100%;
     }
+	.equipment_categories .container {
+		padding-bottom: 70px;
+	}
 	.equipment_categories .equipment_categories_items > article {
-		height: 437px;
+		height: 337px;
+	}
+	.promotional_offers .wrapper {
+		padding: 20px;
+	}
+	.promotional_offers_right_block {
+        margin-top: 70px;
+    }
+	.promotional_offers h2 {
+		margin-bottom: 0;
+	}
+	.lokemed_fao_left_block_icons > div {
+		margin-bottom: 0;
 	}
 	.equipment_categories .img_wrapper {
 		display: flex;
@@ -1830,10 +1843,13 @@ footer .wrapper {
 		height: 40%;
 	}
 	.equipment_categories img {
-		max-width: 70%;
+		max-width: 80%;
 	}
 	.equipment_categories .btn {
 		margin-top: 20px;
+	}
+	.equipment_categories h3 {
+		font-size: 20px;
 	}
 	.catalog .itc-slider-wrapper {
 		padding-top: 40px;
