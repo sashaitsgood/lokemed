@@ -1651,7 +1651,7 @@ footer .wrapper {
 		margin-top: 150px;
 	}
 	.promotional_offers img {
-		top: -53%;
+		top: -23%;
 		left: 50%;
 		transform: translateX(-50%);
 		-webkit-transform: translateX(-50%); 
@@ -1839,6 +1839,7 @@ footer .wrapper {
 	.equipment_categories .img_wrapper {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		height: 50%;
 	}
 	.equipment_categories img {
@@ -1868,14 +1869,8 @@ footer .wrapper {
 	.lokemed_fao.padding_top_section {
 		padding-top: 40px;
 	}
-	.block_records img {
-		max-width: 70%;
-	}
 	.block_records .block_records_text {
 		padding-left: 0;
-	}
-	.block_records h3 {
-		width: 220px;
 	}
 	.block_records .flex {
 		gap: 0;
