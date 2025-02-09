@@ -432,10 +432,10 @@ ul.sub-menu li {
 }
 
 /* 	Slider	 */
-/* .main_page {
+.main_page {
 	background: url(../img/background-main-slider.webp) center center no-repeat;
 	background-size: cover;
-} */
+}
 
 .main_page .slider_items .slide {
 	position: absolute;
